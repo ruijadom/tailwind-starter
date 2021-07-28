@@ -13,7 +13,7 @@
     --color-button-accent-hover: #eef2ff;
     --color-button-muted: #6366f1;
   }
-  .theme-swiss {
+  .first-theme {
     --color-text-base: #ffffff;
     --color-text-muted: #fecaca;
     --color-text-inverted: #dc2626;
@@ -22,7 +22,7 @@
     --color-button-accent-hover: #fef2f2;
     --color-button-muted: #ef4444;
   }
-  .theme-neon {
+  .second-theme {
     --color-text-base: #111802;
     --color-text-muted: #2f4306;
     --color-text-inverted: #ebfacc;
@@ -35,6 +35,6 @@
 
 @layer components {
   .btn {
-    @apply px-4 py-2 bg-blue-600 text-white rounded;
+    @apply px-4 py-2 text-white bg-blue-600 rounded;
   }
 }
