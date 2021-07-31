@@ -32,9 +32,3 @@
     --color-button-muted: #d4ff7a;
   }
 }
-
-@layer components {
-  .btn {
-    @apply px-4 py-2 text-white bg-blue-600 rounded;
-  }
-}
